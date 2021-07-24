@@ -29,7 +29,7 @@ def main(args):
             print(f'the password {password} was found {count} no. of times, you should change the password...')
         else:
             print(f'the password {password} was found {count} no. of times, Good Choice')
-    return "Passwprd checking Completed."
+    return "Password checking Completed."
 
 if __name__=="__main__":
     sys.exit(main(sys.argv[1:]))

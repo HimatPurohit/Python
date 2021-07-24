@@ -36,3 +36,5 @@ print(driver.title)
 checkbox_1=driver.find_element_by_css_selector('#isAgeSelected')
 checkbox_1.click()
 print(checkbox_1.is_selected())
+
+driver.close();
